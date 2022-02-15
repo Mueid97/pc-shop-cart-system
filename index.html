@@ -52,7 +52,86 @@
           </p>
         </div>
         <!-- ----------Customization Section -------------- -->
-        
+        <div class="col mx-3">
+          <!------------------- heading------------ -->
+
+          <h1 class="fw-bold">iMac with Apple M1 Chip</h1>
+
+          <!----------------------- Customization Options-------------------- -->
+
+          <!-------------------- Customization buttons--------------- -->
+          <div class="margin-top d-flex align-items-center">
+            <p class="bold me-5">Memory</p>
+
+            <p role="button" class="p4 button-style" id="eightGB">
+              8GB Unified Memory
+            </p>
+            <p role="button" class="p4 button-style" id="sixteenGB">
+              <i class="fa-solid fa-circle-plus"></i> 16GB Unified Memory
+            </p>
+
+          </div>
+          <div class="margin-top d-flex align-items-center">
+            <p class="bold me-5">Storage</p>
+
+            <p role="button" class="p4 button-style" id="ssd1">
+              256GB SSD Storage
+            </p>
+            <p role="button" class="p4 button-style" id="ssd2">
+              <i class="fa-solid fa-circle-plus"></i> 512GB SSD Storage
+            </p>
+            <p role="button" class="p4 button-style" id="ssd3">
+              <i class="fa-solid fa-circle-plus"></i> 1TB SSD Storage
+            </p>
+          </div>
+          <div class="margin-top d-flex align-items-center">
+            <p class="bold me-5">Choose your delivery option</p>
+            
+            <p role="button" class="p4 button-style" id="free-delivery">
+              Friday, Aug 25 FREE Prime Delivery
+            </p>
+            <p role="button" class="p4 button-style" id="paid-delivery">
+              <i class="fa-solid fa-circle-plus"></i> Friday, Aug21 Delivery Charge $20
+            </p>
+          </div>
+          <!-- -----------Prices After Customization---------------------  -->
+          <div class="margin-top row">
+            <div class="col-5">
+              <p class="bold">Best Price</p>
+              <p class="bold">Extra Memory Cost</p>
+              <p class="bold">Extra Storage Cost</p>
+              <p class="bold">Delivery Charge</p>
+            </div>
+            <div class="col-2">
+              <p class="bold">$<span id="best-price">1299</span></p>
+              <p class="bold">$<span id="memory-cost">0</span></p>
+              <p class="bold">$<span id="storage-cost">0</span></p>
+              <p class="bold">$<span id="delivery-cost">0</span></p>
+            </div>
+            <div class="col-7">
+              <hr class="bold-line" />
+            </div>
+          </div>
+          <!-- -----------------Total Price -------------------- -->
+          <div class="row reduce-margin">
+            <div class="col-5">
+              <p class="bold">Total Price</p>
+            </div>
+            <div class="col-2">
+              <p class="bold">$<span id="total-price">1299</span></p>
+            </div>
+          </div>
+          <!-- ----------promo code section-------------  -->
+          <div class="row margin-top mb-3">
+            <div class="flex">
+              <p class="bold">Add promo Code</p>
+              <input type="text" class="p-2" id="promo-input" placeholder="Enter Promo Code" />
+              <button class="btn-secondary rounded py-2 px-3" id="apply-btn">Apply</button>
+              <p class="text-success d-none" id="applied-text">Coupon applied</p>
+              <p class="text-danger d-none">Couldn't apply coupon</p>
+            </div>
+          </div>
+        </div>
       </article>
     </section>
 
