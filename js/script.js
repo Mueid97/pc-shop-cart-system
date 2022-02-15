@@ -1,4 +1,7 @@
-
+allProducts('sixteenGB','memory-cost',300);
+allProducts('ssd2','storage-cost',400);
+allProducts('ssd3','storage-cost', 500);
+allProducts('paid-delivery','delivery-cost', 20);
 
 function allProducts(itemName,itemId,price){
     document.getElementById(itemName).addEventListener('click',function(){
