@@ -24,4 +24,21 @@ function addItems(itemId,price){
     totalPrice.innerText = total;
     
  }
+
+
+const fakeCode = 'pHero';
+document.getElementById('apply-btn').addEventListener('click',function(){
+        const code = document.getElementById('promo-input').value;
+        if(code === fakeCode){
+           const total= document.getElementById('total-price');
+           let totalCost = parseFloat(total.innerText);
+
+           discountPrice = totalCost/20;
+           totalPrice = totalCost - discountPrice;
+           total.innerText = discountPrice;
+
+        }
+    });
+
+
  
